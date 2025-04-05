@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+void mul(int);
+void mul10(void);
+int fact(int);
+int sum(int);
+int parz(int);
+int parz_tveri_gumar(int);
+float power(float,int);
+int reverse(int);
+int fibonachi(int);
+int binary(int);
+
+int main(){
+	int num;
+	scanf("%d",&num);
+	mul(num);
+	mul10();
+	scanf("%d",&num);
+	printf("%d\n",fact(num));
+	scanf("%d",&num);
+	printf("%d\n",sum(num));
+	scanf("%d",&num);
+	printf("%d\n",parz(num));
+	scanf("%d",&num);
+	printf("%d\n",parz_tveri_gumar(num));
+	int exp=0;
+	float base=0.0;
+	scanf("%f %d",&base,&exp);
+	printf("%f\n",power(base,exp));
+	scanf("%d",&num);
+	printf("%d\n",reverse(num));
+	scanf("%d",&num);
+	printf("%d\n",fibonachi(num));
+	scanf("%d",&num);
+	printf("%d\n",binary(num));
+	return 0;
+}
