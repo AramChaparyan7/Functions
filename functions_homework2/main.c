@@ -9,7 +9,6 @@ int parz(int);
 int parz_tveri_gumar(int);
 float power(float,int);
 int reverse(int);
-void hex(int,char*,int);
 int fibonachi(int);
 int binary(int);
 
@@ -33,13 +32,6 @@ int main(){
 	printf("%f\n",power(base,exp));
 	scanf("%d",&num);
 	printf("%d\n",reverse(num));
-	scanf("%d",&num);
-	char arr[size]={};
-	hex(num,arr,size);
-	for(int i = 0;i < size;++i){
-		printf("%c",arr[i]);
-	}
-	printf("\n");
 	scanf("%d",&num);
 	printf("%d\n",fibonachi(num));
 	scanf("%d",&num);
